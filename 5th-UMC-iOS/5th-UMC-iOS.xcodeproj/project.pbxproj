@@ -13,6 +13,8 @@
 		3BA765532AC1310100187B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA765512AC1310100187B13 /* Main.storyboard */; };
 		3BA765552AC1310200187B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA765542AC1310200187B13 /* Assets.xcassets */; };
 		3BA765582AC1310200187B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA765562AC1310200187B13 /* LaunchScreen.storyboard */; };
+		3BA765602AC1349400187B13 /* 1th_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7655F2AC1349400187B13 /* 1th_ViewController.swift */; };
+		3BA765632AC134F200187B13 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3BA765622AC134F200187B13 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		3BA765542AC1310200187B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BA765572AC1310200187B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BA765592AC1310200187B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA7655F2AC1349400187B13 /* 1th_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1th_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA765632AC134F200187B13 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +63,7 @@
 				3BA7654B2AC1310100187B13 /* AppDelegate.swift */,
 				3BA7654D2AC1310100187B13 /* SceneDelegate.swift */,
 				3BA7654F2AC1310100187B13 /* ViewController.swift */,
+				3BA7655F2AC1349400187B13 /* 1th_ViewController.swift */,
 				3BA765512AC1310100187B13 /* Main.storyboard */,
 				3BA765542AC1310200187B13 /* Assets.xcassets */,
 				3BA765562AC1310200187B13 /* LaunchScreen.storyboard */,
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = "5th-UMC-iOS";
+			packageProductDependencies = (
+				3BA765622AC134F200187B13 /* SnapKit */,
+			);
 			productName = "5th-UMC-iOS";
 			productReference = 3BA765482AC1310100187B13 /* 5th-UMC-iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = 3BA7653F2AC1310100187B13;
+			packageReferences = (
+				3BA765612AC134F200187B13 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 3BA765492AC1310100187B13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,6 +151,7 @@
 			files = (
 				3BA765502AC1310100187B13 /* ViewController.swift in Sources */,
 				3BA7654C2AC1310100187B13 /* AppDelegate.swift in Sources */,
+				3BA765602AC1349400187B13 /* 1th_ViewController.swift in Sources */,
 				3BA7654E2AC1310100187B13 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3BA765612AC134F200187B13 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3BA765622AC134F200187B13 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BA765612AC134F200187B13 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3BA765402AC1310100187B13 /* Project object */;
 }
