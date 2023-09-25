@@ -164,7 +164,6 @@ class ViewController: UIViewController, UISearchBarDelegate {
         self.additionalSafeAreaInsets = insets
     }
     
-    
        func createButton(title: String) -> UIButton {
            let button = UIButton(type: .system)
            button.setTitle(title, for: .normal)
