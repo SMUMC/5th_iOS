@@ -15,6 +15,7 @@
 		3BA765582AC1310200187B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA765562AC1310200187B13 /* LaunchScreen.storyboard */; };
 		3BA765602AC1349400187B13 /* 1th_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA7655F2AC1349400187B13 /* 1th_ViewController.swift */; };
 		3BA765632AC134F200187B13 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3BA765622AC134F200187B13 /* SnapKit */; };
+		3BA765662AC6C32600187B13 /* 1th_Study_Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA765652AC6C32600187B13 /* 1th_Study_Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		3BA765572AC1310200187B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BA765592AC1310200187B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BA7655F2AC1349400187B13 /* 1th_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1th_ViewController.swift; sourceTree = "<group>"; };
+		3BA765652AC6C32600187B13 /* 1th_Study_Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1th_Study_Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +65,22 @@
 				3BA7654B2AC1310100187B13 /* AppDelegate.swift */,
 				3BA7654D2AC1310100187B13 /* SceneDelegate.swift */,
 				3BA7654F2AC1310100187B13 /* ViewController.swift */,
-				3BA7655F2AC1349400187B13 /* 1th_ViewController.swift */,
+				3BA765642AC6C13C00187B13 /* Week1 */,
 				3BA765512AC1310100187B13 /* Main.storyboard */,
 				3BA765542AC1310200187B13 /* Assets.xcassets */,
 				3BA765562AC1310200187B13 /* LaunchScreen.storyboard */,
 				3BA765592AC1310200187B13 /* Info.plist */,
 			);
 			path = "5th-UMC-iOS";
+			sourceTree = "<group>";
+		};
+		3BA765642AC6C13C00187B13 /* Week1 */ = {
+			isa = PBXGroup;
+			children = (
+				3BA7655F2AC1349400187B13 /* 1th_ViewController.swift */,
+				3BA765652AC6C32600187B13 /* 1th_Study_Mission.swift */,
+			);
+			path = Week1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 				3BA765502AC1310100187B13 /* ViewController.swift in Sources */,
 				3BA7654C2AC1310100187B13 /* AppDelegate.swift in Sources */,
 				3BA765602AC1349400187B13 /* 1th_ViewController.swift in Sources */,
+				3BA765662AC6C32600187B13 /* 1th_Study_Mission.swift in Sources */,
 				3BA7654E2AC1310100187B13 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
