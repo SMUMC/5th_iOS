@@ -186,7 +186,7 @@ class Study1WeekViewController: UIViewController {
         let categotyBtn8 = createButtonWithText2("디저트", 15)
         let categotyBtn9 = createButtonWithText2("족발", 15)
         let categotyBtn10 = createButtonWithText2("전체보기", 15)
-        let categotyBtn11 = createButtonWithText2("예시", 15)
+
         
 //        let categoryBtn1 = createButtonWithAdjustedImageSize("알뜰배달", UIImage(named: "myImage")!, CGSize(width: 60, height: 60))
         
@@ -208,7 +208,6 @@ class Study1WeekViewController: UIViewController {
         self.view.addSubview(categotyBtn8)
         self.view.addSubview(categotyBtn9)
         self.view.addSubview(categotyBtn10)
-        self.view.addSubview(categotyBtn11)
         self.view.addSubview(imageView)
         
         
@@ -302,11 +301,6 @@ class Study1WeekViewController: UIViewController {
 //            make.top.equalTo(naviBtn.snp.bottom).offset(5)
 //        }
         
-        categotyBtn11.snp.makeConstraints { make in
-            make.top.equalTo(categotyBtn6.snp.bottom).offset(50)
-//            make.centerX.equalTo(categotyBtn6.snp.centerX)
-            make.centerX.equalToSuperview()
-        }
         
         imageView.snp.makeConstraints { make in
             make.top.equalTo(whiteView.snp.bottom).offset(20)
@@ -345,7 +339,7 @@ struct Study1WeekViewControllerRepresentable_PreviewProvider: PreviewProvider {
             Study1WeekViewControllerRepresentable()
                 .ignoresSafeArea()
                 .previewDisplayName(/*@START_MENU_TOKEN@*/"Preview"/*@END_MENU_TOKEN@*/)
-                .previewDevice(PreviewDevice(rawValue: "iPhone 14 pro"))
+                .previewDevice(PreviewDevice(rawValue: "iPhone SE"))
         }
     }
 } #endif
