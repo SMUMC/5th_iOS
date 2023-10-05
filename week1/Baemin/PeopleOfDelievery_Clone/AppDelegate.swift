@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Baemin
+//  PeopleOfDelievery_Clone
 //
-//  Created by 이현호 on 2023/10/05.
+//  Created by 이현호 on 2023/09/25.
 //
 
 import UIKit
