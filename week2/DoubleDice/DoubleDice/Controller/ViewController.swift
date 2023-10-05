@@ -61,13 +61,13 @@ class ViewController: UIViewController {
         diceView.diceImg2.image = diceModel.getDiceImg(value: diceModel.dice2Status)
     }
 }
-
-#if canImport(SwiftUI) && DEBUG
-import SwiftUI
-
-struct VCPreview: PreviewProvider {
-    static var previews: some View {
-        ViewController().showPreview(.iPhone15Pro)
-    }
-}
-#endif
+//
+//#if canImport(SwiftUI) && DEBUG
+//import SwiftUI
+//
+//struct VCPreview: PreviewProvider {
+//    static var previews: some View {
+//        ViewController().showPreview(.iPhone15Pro)
+//    }
+//}
+//#endif

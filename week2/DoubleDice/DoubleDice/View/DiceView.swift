@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 import SnapKit
 
 class DiceView: UIView{
@@ -52,14 +53,14 @@ class DiceView: UIView{
     }
 }
 
-#if canImport(SwiftUI) && DEBUG
-import SwiftUI
-struct DiceViewPreView: PreviewProvider{
-    static var previews: some View {
-        UIViewPreview {
-            let view = DiceView()
-            return view
-        }.previewLayout(.sizeThatFits)
-    }
-}
-#endif
+//#if canImport(SwiftUI) && DEBUG
+//import SwiftUI
+//struct DiceViewPreView: PreviewProvider{
+//    static var previews: some View {
+//        UIViewPreview {
+//            let view = DiceView()
+//            return view
+//        }.previewLayout(.sizeThatFits)
+//    }
+//}
+//#endif

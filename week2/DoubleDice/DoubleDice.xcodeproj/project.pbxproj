@@ -16,8 +16,6 @@
 		31C860A22ACBEEC20039B28F /* DoubleDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C860A12ACBEEC20039B28F /* DoubleDiceTests.swift */; };
 		31C860AC2ACBEEC20039B28F /* DoubleDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C860AB2ACBEEC20039B28F /* DoubleDiceUITests.swift */; };
 		31C860AE2ACBEEC20039B28F /* DoubleDiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C860AD2ACBEEC20039B28F /* DoubleDiceUITestsLaunchTests.swift */; };
-		31C860BF2ACBEF460039B28F /* UIViewControllerPreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C860BD2ACBEF460039B28F /* UIViewControllerPreView.swift */; };
-		31C860C02ACBEF460039B28F /* UIViewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C860BE2ACBEF460039B28F /* UIViewPreview.swift */; };
 		31C860C22ACBEF570039B28F /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C860C12ACBEF570039B28F /* DiceView.swift */; };
 		31C860C42ACBEF620039B28F /* DiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C860C32ACBEF620039B28F /* DiceModel.swift */; };
 		31C860C82ACBF7550039B28F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 31C860C72ACBF7550039B28F /* SnapKit */; };
@@ -70,8 +68,6 @@
 		31C860A72ACBEEC20039B28F /* DoubleDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C860AB2ACBEEC20039B28F /* DoubleDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleDiceUITests.swift; sourceTree = "<group>"; };
 		31C860AD2ACBEEC20039B28F /* DoubleDiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleDiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		31C860BD2ACBEF460039B28F /* UIViewControllerPreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerPreView.swift; sourceTree = "<group>"; };
-		31C860BE2ACBEF460039B28F /* UIViewPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewPreview.swift; sourceTree = "<group>"; };
 		31C860C12ACBEF570039B28F /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 		31C860C32ACBEF620039B28F /* DiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,8 +154,6 @@
 		31C860BA2ACBEEE70039B28F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				31C860BD2ACBEF460039B28F /* UIViewControllerPreView.swift */,
-				31C860BE2ACBEF460039B28F /* UIViewPreview.swift */,
 				31C860C32ACBEF620039B28F /* DiceModel.swift */,
 			);
 			path = Model;
@@ -329,12 +323,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31C860C02ACBEF460039B28F /* UIViewPreview.swift in Sources */,
 				31C860C22ACBEF570039B28F /* DiceView.swift in Sources */,
 				31C8608F2ACBEEC10039B28F /* ViewController.swift in Sources */,
 				31C8608B2ACBEEC10039B28F /* AppDelegate.swift in Sources */,
 				31C8608D2ACBEEC10039B28F /* SceneDelegate.swift in Sources */,
-				31C860BF2ACBEF460039B28F /* UIViewControllerPreView.swift in Sources */,
 				31C860C42ACBEF620039B28F /* DiceModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
