@@ -339,7 +339,7 @@ struct Study1WeekViewControllerRepresentable_PreviewProvider: PreviewProvider {
             Study1WeekViewControllerRepresentable()
                 .ignoresSafeArea()
                 .previewDisplayName(/*@START_MENU_TOKEN@*/"Preview"/*@END_MENU_TOKEN@*/)
-                .previewDevice(PreviewDevice(rawValue: "iPhone SE"))
+                .previewDevice(PreviewDevice(rawValue: "iPhone 14pro"))
         }
     }
 } #endif
