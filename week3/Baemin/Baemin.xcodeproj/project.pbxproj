@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C154C66B2ADC941A00E9C094 /* ShoppingBasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154C66A2ADC941A00E9C094 /* ShoppingBasketViewController.swift */; };
 		C18A04A92AD80E7B00C19FA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A04A82AD80E7B00C19FA1 /* AppDelegate.swift */; };
 		C18A04AB2AD80E7B00C19FA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A04AA2AD80E7B00C19FA1 /* SceneDelegate.swift */; };
 		C18A04AD2AD80E7B00C19FA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A04AC2AD80E7B00C19FA1 /* ViewController.swift */; };
@@ -17,9 +18,12 @@
 		C18A04C32AD8113E00C19FA1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C18A04C22AD8113E00C19FA1 /* SnapKit */; };
 		C18A04C52AD8113E00C19FA1 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = C18A04C42AD8113E00C19FA1 /* SnapKit-Dynamic */; };
 		C18A04C72AD825E000C19FA1 /* SizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A04C62AD825E000C19FA1 /* SizeView.swift */; };
+		C18A04C92ADA84E100C19FA1 /* GoShoppingBasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A04C82ADA84E100C19FA1 /* GoShoppingBasketView.swift */; };
+		C18A04CB2ADA919300C19FA1 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18A04CA2ADA919300C19FA1 /* TopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C154C66A2ADC941A00E9C094 /* ShoppingBasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingBasketViewController.swift; sourceTree = "<group>"; };
 		C18A04A52AD80E7B00C19FA1 /* Baemin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baemin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18A04A82AD80E7B00C19FA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C18A04AA2AD80E7B00C19FA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +34,8 @@
 		C18A04B62AD80E7C00C19FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C18A04BF2AD80F8600C19FA1 /* UIPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPreview.swift; sourceTree = "<group>"; };
 		C18A04C62AD825E000C19FA1 /* SizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeView.swift; sourceTree = "<group>"; };
+		C18A04C82ADA84E100C19FA1 /* GoShoppingBasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoShoppingBasketView.swift; sourceTree = "<group>"; };
+		C18A04CA2ADA919300C19FA1 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,8 @@
 			children = (
 				C18A04AE2AD80E7B00C19FA1 /* Main.storyboard */,
 				C18A04C62AD825E000C19FA1 /* SizeView.swift */,
+				C18A04C82ADA84E100C19FA1 /* GoShoppingBasketView.swift */,
+				C18A04CA2ADA919300C19FA1 /* TopView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -97,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				C18A04AC2AD80E7B00C19FA1 /* ViewController.swift */,
+				C154C66A2ADC941A00E9C094 /* ShoppingBasketViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,10 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C18A04CB2ADA919300C19FA1 /* TopView.swift in Sources */,
 				C18A04AD2AD80E7B00C19FA1 /* ViewController.swift in Sources */,
 				C18A04A92AD80E7B00C19FA1 /* AppDelegate.swift in Sources */,
+				C18A04C92ADA84E100C19FA1 /* GoShoppingBasketView.swift in Sources */,
 				C18A04C02AD80F8600C19FA1 /* UIPreview.swift in Sources */,
 				C18A04C72AD825E000C19FA1 /* SizeView.swift in Sources */,
+				C154C66B2ADC941A00E9C094 /* ShoppingBasketViewController.swift in Sources */,
 				C18A04AB2AD80E7B00C19FA1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
