@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		319459E12AD2E4DD00A49462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319459E02AD2E4DD00A49462 /* AppDelegate.swift */; };
+		319459E32AD2E4DD00A49462 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319459E22AD2E4DD00A49462 /* SceneDelegate.swift */; };
+		319459E52AD2E4DD00A49462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319459E42AD2E4DD00A49462 /* ViewController.swift */; };
+		319459EA2AD2E4DE00A49462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319459E92AD2E4DE00A49462 /* Assets.xcassets */; };
+		319459ED2AD2E4DE00A49462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319459EB2AD2E4DE00A49462 /* LaunchScreen.storyboard */; };
+		319459F82AD2E4DE00A49462 /* BaeminShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319459F72AD2E4DE00A49462 /* BaeminShoppingTests.swift */; };
+		31945A022AD2E4DE00A49462 /* BaeminShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31945A012AD2E4DE00A49462 /* BaeminShoppingUITests.swift */; };
+		31945A042AD2E4DE00A49462 /* BaeminShoppingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31945A032AD2E4DE00A49462 /* BaeminShoppingUITestsLaunchTests.swift */; };
+		31945A112AD2E50F00A49462 /* UIPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31945A102AD2E50F00A49462 /* UIPreview.swift */; };
+		31945A132AD2E53D00A49462 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31945A122AD2E53D00A49462 /* SecondViewController.swift */; };
+		31945A172AD2E70500A49462 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 31945A162AD2E70500A49462 /* SnapKit */; };
+		31945A192AD2E74700A49462 /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31945A182AD2E74700A49462 /* PriceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		319459F42AD2E4DE00A49462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 319459D52AD2E4DD00A49462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 319459DC2AD2E4DD00A49462;
+			remoteInfo = BaeminShopping;
+		};
+		319459FE2AD2E4DE00A49462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 319459D52AD2E4DD00A49462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 319459DC2AD2E4DD00A49462;
+			remoteInfo = BaeminShopping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		319459DD2AD2E4DD00A49462 /* BaeminShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaeminShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		319459E02AD2E4DD00A49462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		319459E22AD2E4DD00A49462 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		319459E42AD2E4DD00A49462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		319459E92AD2E4DE00A49462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		319459EC2AD2E4DE00A49462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		319459EE2AD2E4DE00A49462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319459F32AD2E4DE00A49462 /* BaeminShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaeminShoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		319459F72AD2E4DE00A49462 /* BaeminShoppingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaeminShoppingTests.swift; sourceTree = "<group>"; };
+		319459FD2AD2E4DE00A49462 /* BaeminShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaeminShoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31945A012AD2E4DE00A49462 /* BaeminShoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaeminShoppingUITests.swift; sourceTree = "<group>"; };
+		31945A032AD2E4DE00A49462 /* BaeminShoppingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaeminShoppingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31945A102AD2E50F00A49462 /* UIPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPreview.swift; sourceTree = "<group>"; };
+		31945A122AD2E53D00A49462 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		31945A182AD2E74700A49462 /* PriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		319459DA2AD2E4DD00A49462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31945A172AD2E70500A49462 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319459F02AD2E4DE00A49462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319459FA2AD2E4DE00A49462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		319459D42AD2E4DD00A49462 = {
+			isa = PBXGroup;
+			children = (
+				319459DF2AD2E4DD00A49462 /* BaeminShopping */,
+				319459F62AD2E4DE00A49462 /* BaeminShoppingTests */,
+				31945A002AD2E4DE00A49462 /* BaeminShoppingUITests */,
+				319459DE2AD2E4DD00A49462 /* Products */,
+				31945A152AD2E70500A49462 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		319459DE2AD2E4DD00A49462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				319459DD2AD2E4DD00A49462 /* BaeminShopping.app */,
+				319459F32AD2E4DE00A49462 /* BaeminShoppingTests.xctest */,
+				319459FD2AD2E4DE00A49462 /* BaeminShoppingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		319459DF2AD2E4DD00A49462 /* BaeminShopping */ = {
+			isa = PBXGroup;
+			children = (
+				31945A102AD2E50F00A49462 /* UIPreview.swift */,
+				319459E02AD2E4DD00A49462 /* AppDelegate.swift */,
+				319459E22AD2E4DD00A49462 /* SceneDelegate.swift */,
+				319459E42AD2E4DD00A49462 /* ViewController.swift */,
+				31945A182AD2E74700A49462 /* PriceView.swift */,
+				31945A122AD2E53D00A49462 /* SecondViewController.swift */,
+				319459E92AD2E4DE00A49462 /* Assets.xcassets */,
+				319459EB2AD2E4DE00A49462 /* LaunchScreen.storyboard */,
+				319459EE2AD2E4DE00A49462 /* Info.plist */,
+			);
+			path = BaeminShopping;
+			sourceTree = "<group>";
+		};
+		319459F62AD2E4DE00A49462 /* BaeminShoppingTests */ = {
+			isa = PBXGroup;
+			children = (
+				319459F72AD2E4DE00A49462 /* BaeminShoppingTests.swift */,
+			);
+			path = BaeminShoppingTests;
+			sourceTree = "<group>";
+		};
+		31945A002AD2E4DE00A49462 /* BaeminShoppingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31945A012AD2E4DE00A49462 /* BaeminShoppingUITests.swift */,
+				31945A032AD2E4DE00A49462 /* BaeminShoppingUITestsLaunchTests.swift */,
+			);
+			path = BaeminShoppingUITests;
+			sourceTree = "<group>";
+		};
+		31945A152AD2E70500A49462 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		319459DC2AD2E4DD00A49462 /* BaeminShopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31945A072AD2E4DE00A49462 /* Build configuration list for PBXNativeTarget "BaeminShopping" */;
+			buildPhases = (
+				319459D92AD2E4DD00A49462 /* Sources */,
+				319459DA2AD2E4DD00A49462 /* Frameworks */,
+				319459DB2AD2E4DD00A49462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaeminShopping;
+			packageProductDependencies = (
+				31945A162AD2E70500A49462 /* SnapKit */,
+			);
+			productName = BaeminShopping;
+			productReference = 319459DD2AD2E4DD00A49462 /* BaeminShopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		319459F22AD2E4DE00A49462 /* BaeminShoppingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31945A0A2AD2E4DE00A49462 /* Build configuration list for PBXNativeTarget "BaeminShoppingTests" */;
+			buildPhases = (
+				319459EF2AD2E4DE00A49462 /* Sources */,
+				319459F02AD2E4DE00A49462 /* Frameworks */,
+				319459F12AD2E4DE00A49462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				319459F52AD2E4DE00A49462 /* PBXTargetDependency */,
+			);
+			name = BaeminShoppingTests;
+			productName = BaeminShoppingTests;
+			productReference = 319459F32AD2E4DE00A49462 /* BaeminShoppingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		319459FC2AD2E4DE00A49462 /* BaeminShoppingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31945A0D2AD2E4DE00A49462 /* Build configuration list for PBXNativeTarget "BaeminShoppingUITests" */;
+			buildPhases = (
+				319459F92AD2E4DE00A49462 /* Sources */,
+				319459FA2AD2E4DE00A49462 /* Frameworks */,
+				319459FB2AD2E4DE00A49462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				319459FF2AD2E4DE00A49462 /* PBXTargetDependency */,
+			);
+			name = BaeminShoppingUITests;
+			productName = BaeminShoppingUITests;
+			productReference = 319459FD2AD2E4DE00A49462 /* BaeminShoppingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		319459D52AD2E4DD00A49462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					319459DC2AD2E4DD00A49462 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					319459F22AD2E4DE00A49462 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 319459DC2AD2E4DD00A49462;
+					};
+					319459FC2AD2E4DE00A49462 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 319459DC2AD2E4DD00A49462;
+					};
+				};
+			};
+			buildConfigurationList = 319459D82AD2E4DD00A49462 /* Build configuration list for PBXProject "BaeminShopping" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 319459D42AD2E4DD00A49462;
+			packageReferences = (
+				31945A142AD2E6E800A49462 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 319459DE2AD2E4DD00A49462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				319459DC2AD2E4DD00A49462 /* BaeminShopping */,
+				319459F22AD2E4DE00A49462 /* BaeminShoppingTests */,
+				319459FC2AD2E4DE00A49462 /* BaeminShoppingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		319459DB2AD2E4DD00A49462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319459ED2AD2E4DE00A49462 /* LaunchScreen.storyboard in Resources */,
+				319459EA2AD2E4DE00A49462 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319459F12AD2E4DE00A49462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319459FB2AD2E4DE00A49462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		319459D92AD2E4DD00A49462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319459E52AD2E4DD00A49462 /* ViewController.swift in Sources */,
+				319459E12AD2E4DD00A49462 /* AppDelegate.swift in Sources */,
+				31945A192AD2E74700A49462 /* PriceView.swift in Sources */,
+				31945A112AD2E50F00A49462 /* UIPreview.swift in Sources */,
+				31945A132AD2E53D00A49462 /* SecondViewController.swift in Sources */,
+				319459E32AD2E4DD00A49462 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319459EF2AD2E4DE00A49462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319459F82AD2E4DE00A49462 /* BaeminShoppingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		319459F92AD2E4DE00A49462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31945A042AD2E4DE00A49462 /* BaeminShoppingUITestsLaunchTests.swift in Sources */,
+				31945A022AD2E4DE00A49462 /* BaeminShoppingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		319459F52AD2E4DE00A49462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 319459DC2AD2E4DD00A49462 /* BaeminShopping */;
+			targetProxy = 319459F42AD2E4DE00A49462 /* PBXContainerItemProxy */;
+		};
+		319459FF2AD2E4DE00A49462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 319459DC2AD2E4DD00A49462 /* BaeminShopping */;
+			targetProxy = 319459FE2AD2E4DE00A49462 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		319459EB2AD2E4DE00A49462 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				319459EC2AD2E4DE00A49462 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31945A052AD2E4DE00A49462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31945A062AD2E4DE00A49462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31945A082AD2E4DE00A49462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BaeminShopping/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taipaise.BaeminShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31945A092AD2E4DE00A49462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BaeminShopping/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taipaise.BaeminShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31945A0B2AD2E4DE00A49462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taipaise.BaeminShoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaeminShopping.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BaeminShopping";
+			};
+			name = Debug;
+		};
+		31945A0C2AD2E4DE00A49462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taipaise.BaeminShoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaeminShopping.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BaeminShopping";
+			};
+			name = Release;
+		};
+		31945A0E2AD2E4DE00A49462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taipaise.BaeminShoppingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaeminShopping;
+			};
+			name = Debug;
+		};
+		31945A0F2AD2E4DE00A49462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taipaise.BaeminShoppingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaeminShopping;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		319459D82AD2E4DD00A49462 /* Build configuration list for PBXProject "BaeminShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31945A052AD2E4DE00A49462 /* Debug */,
+				31945A062AD2E4DE00A49462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31945A072AD2E4DE00A49462 /* Build configuration list for PBXNativeTarget "BaeminShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31945A082AD2E4DE00A49462 /* Debug */,
+				31945A092AD2E4DE00A49462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31945A0A2AD2E4DE00A49462 /* Build configuration list for PBXNativeTarget "BaeminShoppingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31945A0B2AD2E4DE00A49462 /* Debug */,
+				31945A0C2AD2E4DE00A49462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31945A0D2AD2E4DE00A49462 /* Build configuration list for PBXNativeTarget "BaeminShoppingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31945A0E2AD2E4DE00A49462 /* Debug */,
+				31945A0F2AD2E4DE00A49462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31945A142AD2E6E800A49462 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31945A162AD2E70500A49462 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31945A142AD2E6E800A49462 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 319459D52AD2E4DD00A49462 /* Project object */;
+}
