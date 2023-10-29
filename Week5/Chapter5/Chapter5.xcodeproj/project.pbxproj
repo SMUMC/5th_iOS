@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAD2631D2AEE71EA00068237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD2631C2AEE71EA00068237 /* AppDelegate.swift */; };
+		AAD2631F2AEE71EA00068237 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD2631E2AEE71EA00068237 /* SceneDelegate.swift */; };
+		AAD263212AEE71EA00068237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD263202AEE71EA00068237 /* ViewController.swift */; };
+		AAD263262AEE71EC00068237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD263252AEE71EC00068237 /* Assets.xcassets */; };
+		AAD263292AEE71EC00068237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD263272AEE71EC00068237 /* LaunchScreen.storyboard */; };
+		AAD263322AEE765100068237 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = AAD263312AEE765100068237 /* KakaoSDK */; };
+		AAD263342AEE765100068237 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AAD263332AEE765100068237 /* KakaoSDKAuth */; };
+		AAD263362AEE765100068237 /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = AAD263352AEE765100068237 /* KakaoSDKCert */; };
+		AAD263382AEE765100068237 /* KakaoSDKCertCore in Frameworks */ = {isa = PBXBuildFile; productRef = AAD263372AEE765100068237 /* KakaoSDKCertCore */; };
+		AAD2633A2AEE765100068237 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = AAD263392AEE765100068237 /* KakaoSDKCommon */; };
+		AAD2633D2AEE78CE00068237 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AAD2633C2AEE78CE00068237 /* SnapKit */; };
+		AAD2633F2AEE78CE00068237 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = AAD2633E2AEE78CE00068237 /* SnapKit-Dynamic */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAD263192AEE71EA00068237 /* Chapter5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD2631C2AEE71EA00068237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAD2631E2AEE71EA00068237 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AAD263202AEE71EA00068237 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAD263252AEE71EC00068237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAD263282AEE71EC00068237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAD2632A2AEE71EC00068237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD263162AEE71EA00068237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD263382AEE765100068237 /* KakaoSDKCertCore in Frameworks */,
+				AAD263362AEE765100068237 /* KakaoSDKCert in Frameworks */,
+				AAD263322AEE765100068237 /* KakaoSDK in Frameworks */,
+				AAD2633D2AEE78CE00068237 /* SnapKit in Frameworks */,
+				AAD2633A2AEE765100068237 /* KakaoSDKCommon in Frameworks */,
+				AAD2633F2AEE78CE00068237 /* SnapKit-Dynamic in Frameworks */,
+				AAD263342AEE765100068237 /* KakaoSDKAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAD263102AEE71EA00068237 = {
+			isa = PBXGroup;
+			children = (
+				AAD2631B2AEE71EA00068237 /* Chapter5 */,
+				AAD2631A2AEE71EA00068237 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD2631A2AEE71EA00068237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD263192AEE71EA00068237 /* Chapter5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD2631B2AEE71EA00068237 /* Chapter5 */ = {
+			isa = PBXGroup;
+			children = (
+				AAD2631C2AEE71EA00068237 /* AppDelegate.swift */,
+				AAD2631E2AEE71EA00068237 /* SceneDelegate.swift */,
+				AAD263202AEE71EA00068237 /* ViewController.swift */,
+				AAD263252AEE71EC00068237 /* Assets.xcassets */,
+				AAD263272AEE71EC00068237 /* LaunchScreen.storyboard */,
+				AAD2632A2AEE71EC00068237 /* Info.plist */,
+			);
+			path = Chapter5;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAD263182AEE71EA00068237 /* Chapter5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD2632D2AEE71EC00068237 /* Build configuration list for PBXNativeTarget "Chapter5" */;
+			buildPhases = (
+				AAD263152AEE71EA00068237 /* Sources */,
+				AAD263162AEE71EA00068237 /* Frameworks */,
+				AAD263172AEE71EA00068237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chapter5;
+			packageProductDependencies = (
+				AAD263312AEE765100068237 /* KakaoSDK */,
+				AAD263332AEE765100068237 /* KakaoSDKAuth */,
+				AAD263352AEE765100068237 /* KakaoSDKCert */,
+				AAD263372AEE765100068237 /* KakaoSDKCertCore */,
+				AAD263392AEE765100068237 /* KakaoSDKCommon */,
+				AAD2633C2AEE78CE00068237 /* SnapKit */,
+				AAD2633E2AEE78CE00068237 /* SnapKit-Dynamic */,
+			);
+			productName = Chapter5;
+			productReference = AAD263192AEE71EA00068237 /* Chapter5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD263112AEE71EA00068237 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AAD263182AEE71EA00068237 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = AAD263142AEE71EA00068237 /* Build configuration list for PBXProject "Chapter5" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAD263102AEE71EA00068237;
+			packageReferences = (
+				AAD263302AEE765100068237 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				AAD2633B2AEE78CD00068237 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = AAD2631A2AEE71EA00068237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD263182AEE71EA00068237 /* Chapter5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAD263172AEE71EA00068237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD263292AEE71EC00068237 /* LaunchScreen.storyboard in Resources */,
+				AAD263262AEE71EC00068237 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD263152AEE71EA00068237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD263212AEE71EA00068237 /* ViewController.swift in Sources */,
+				AAD2631D2AEE71EA00068237 /* AppDelegate.swift in Sources */,
+				AAD2631F2AEE71EA00068237 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAD263272AEE71EC00068237 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD263282AEE71EC00068237 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAD2632B2AEE71EC00068237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAD2632C2AEE71EC00068237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAD2632E2AEE71EC00068237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chapter5/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joon.Chapter5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAD2632F2AEE71EC00068237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chapter5/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joon.Chapter5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD263142AEE71EA00068237 /* Build configuration list for PBXProject "Chapter5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD2632B2AEE71EC00068237 /* Debug */,
+				AAD2632C2AEE71EC00068237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD2632D2AEE71EC00068237 /* Build configuration list for PBXNativeTarget "Chapter5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD2632E2AEE71EC00068237 /* Debug */,
+				AAD2632F2AEE71EC00068237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AAD263302AEE765100068237 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.18.1;
+			};
+		};
+		AAD2633B2AEE78CD00068237 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AAD263312AEE765100068237 /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAD263302AEE765100068237 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		AAD263332AEE765100068237 /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAD263302AEE765100068237 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		AAD263352AEE765100068237 /* KakaoSDKCert */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAD263302AEE765100068237 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCert;
+		};
+		AAD263372AEE765100068237 /* KakaoSDKCertCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAD263302AEE765100068237 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCertCore;
+		};
+		AAD263392AEE765100068237 /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAD263302AEE765100068237 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		AAD2633C2AEE78CE00068237 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAD2633B2AEE78CD00068237 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		AAD2633E2AEE78CE00068237 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAD2633B2AEE78CD00068237 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AAD263112AEE71EA00068237 /* Project object */;
+}
