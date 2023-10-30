@@ -15,7 +15,7 @@ struct WeatherService{
     func getCurrentWeather(completion: @escaping (NetworkResult<Any>) -> (Void)) {
         
 
-        let url = "https://api.openweathermap.org/data/2.5/weather?lat=35&lon=127&appid=5b94ed0b9f14c10d74778b3665f1e893"
+        let url = ""//openWather API
         
         let header: HTTPHeaders = [
             "Content-Type": "application/json"
